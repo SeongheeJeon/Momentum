@@ -6,6 +6,12 @@ const TODOS_LS = "toDos";
 
 let toDos = [];
 
+function checkboxChange(event){
+    const checkbox = event.target;
+    const label = checkbox.parentNode;
+    label.classList.toggle("checked");
+    label.nextSibling.classList.toggle("checked");
+}
 
 // delete버튼을 누르면 localstorage에서 삭제되고, 
 // localstorage를 다시 로드하도록 하면 두번작업하지 않아도 되나?
@@ -25,11 +31,17 @@ function saveToDos(){
 function paintToDo(text){
     const li = document.createElement("li");
     const delBtn = document.createElement("button");
+    const checkBox = document.createElement("input");
+    const label = document.createElement("label");
     const span = document.createElement("span");
     const newId = toDos.length +1;
-    delBtn.innerHTML = "❌";
+    checkBox.addEventListener("change", checkboxChange)
+    checkBox.type = "checkbox";
+    label.appendChild(checkBox);
+    delBtn.innerHTML = "X";
     delBtn.addEventListener("click", deleteTodo);
     span.innerHTML = text;
+    li.appendChild(label);
     li.appendChild(span);
     li.appendChild(delBtn);
     li.id = newId;
