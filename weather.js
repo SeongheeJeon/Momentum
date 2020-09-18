@@ -1,5 +1,5 @@
 // require('dotenv').config();
-
+import {API_KEY} from "./secret.js";
 const weather = document.querySelector(".js-weather");
 
 const COORDS = 'coords';
