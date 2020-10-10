@@ -1,13 +1,36 @@
 
-### 노마드 코더의 '바닐라 JS로 크롬 앱 만들기' 강의를 들으며 만들었습니다.  
+### 노마드 코더의 '바닐라 JS로 크롬 앱 만들기' 강의를 들으며 따라 만들었습니다.  
 
 ### 사용자를 등록하고, 할 일 목록을 생성할 수 있습니다.  
 
-### 날씨정보를 이용하려면 사용자의 API_KEY를 secret.js파일에 상수로 선언해야합니다.  
+### 알게된 내용
+- API_KEY 사용하기, 숨기기 ([TIL구경하기](https://github.com/SeongheeJeon/TIL/blob/master/JavaScript/API_KEY%20%EC%88%A8%EA%B8%B0%EA%B8%B0.md))
+- backtick(`) 사용  ([TIL구경하기](https://github.com/SeongheeJeon/TIL/blob/master/JavaScript/backtick(%60).md))
+- Array.forEach()  
+  -> 배열에 있는 각 요소에 대해 함수를 실행한다.
 
- <img src="images/example.png" width="70%"></img>
- 
- 
-<br><br> 
-### 강의를 들으며 여기까지 만들었고,   
-### 수정을 거쳐 새로 만든 Momentum2는 [여기](https://github.com/SeongheeJeon/Momentum2.git)서 확인하실 수 있습니다.
+  ```jsx
+  const array1 = ['a', 'b', 'c'];
+  array1.forEach(element => console.log(element));
+
+  /* 
+  expected output
+   > "a"
+   > "b"
+   > "c"
+  */
+  ```
+
+- Array.filter()
+  -> array의 모든 요소에 대해서 함수를 실행하고, 참값들만 새로운 배열로 반환한다.
+
+- fn1.then(fn2)
+  -> fn1에서 결과값 반환 받은 뒤 fn 실행.
+
+---
+
+
+(메인 화면)  
+<img src="images/example.png" width="70%"></img>
+  
+## 백지코딩하며 다시 만들어본 개선된 Momentum2는 [여기](https://github.com/SeongheeJeon/Momentum2.git)서 확인하실 수 있습니다.
