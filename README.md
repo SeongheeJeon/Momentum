@@ -12,7 +12,9 @@
   -> 날씨정보를 사용하기 위해서는 [openweathermap](https://openweathermap.org/)에서 회원가입 후 API_KEY를 발급받고,   
       secret.js에 상수로 선언해야한다.  
 - API_KEY 숨기기 ([TIL구경하기](https://github.com/SeongheeJeon/TIL/blob/master/JavaScript/API_KEY%20%EC%88%A8%EA%B8%B0%EA%B8%B0.md))
-- backtick(`) 사용  ([TIL구경하기](https://github.com/SeongheeJeon/TIL/blob/master/JavaScript/backtick(%60).md))
+- backtick(`) 사용  ([TIL구경하기](https://github.com/SeongheeJeon/TIL/blob/master/JavaScript/backtick(%60).md))  
+- JSON.stringify() : JSON 객체를 string 객체로 변환시켜준다.  
+- JSON.parse() : string 객체를 JSON 객체로 변환시켜준다.
 - Array.forEach()  
   -> 배열에 있는 각 요소에 대해 함수를 실행한다.
 
