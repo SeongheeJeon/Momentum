@@ -3,6 +3,9 @@
 
 ### 사용자를 등록하고, 할 일 목록을 생성할 수 있습니다.  
 
+(메인 화면)  
+<img src="images/example.png" width="70%"></img>
+  
 ### 알게된 내용
 - API_KEY 사용하기, 숨기기 ([TIL구경하기](https://github.com/SeongheeJeon/TIL/blob/master/JavaScript/API_KEY%20%EC%88%A8%EA%B8%B0%EA%B8%B0.md))
 - backtick(`) 사용  ([TIL구경하기](https://github.com/SeongheeJeon/TIL/blob/master/JavaScript/backtick(%60).md))
@@ -30,7 +33,4 @@
 ---
 
 
-(메인 화면)  
-<img src="images/example.png" width="70%"></img>
-  
 ## 백지코딩하며 다시 만들어본 개선된 Momentum2는 [여기](https://github.com/SeongheeJeon/Momentum2.git)서 확인하실 수 있습니다.
