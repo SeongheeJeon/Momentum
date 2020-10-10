@@ -8,9 +8,7 @@
   
 ### 알게된 내용
 - 오픈 API 사용하기  
-  -> 오픈 API란? 포털 사이트나 관공서 등의 정보 수집 단체에서 공공 이익을 위해 수집한 정보를 일정 수준에서 개방하는 서비스.
-
-출처: https://ehclub.co.kr/2535 [언제나 휴일]
+  -> 오픈 API란? 포털 사이트나 관공서 등의 정보 수집 단체에서 공공 이익을 위해 수집한 정보를 일정 수준에서 개방하는 서비스.  
 - API_KEY 숨기기 ([TIL구경하기](https://github.com/SeongheeJeon/TIL/blob/master/JavaScript/API_KEY%20%EC%88%A8%EA%B8%B0%EA%B8%B0.md))
 - backtick(`) 사용  ([TIL구경하기](https://github.com/SeongheeJeon/TIL/blob/master/JavaScript/backtick(%60).md))
 - Array.forEach()  
